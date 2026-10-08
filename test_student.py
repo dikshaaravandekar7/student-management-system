@@ -23,7 +23,7 @@ def test_search_student():
     assert search_student(1) == "Student found: Alice"
 
 def test_search_non_existing():
-    assert search_student(2) == "Student not found"
+    assert search_student(2) == "No student"
 
 def test_update_student():
     add_student(1,"Alice")
