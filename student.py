@@ -15,7 +15,7 @@ def remove_student(roll):
 def search_student(roll):
     if roll in students:
         return f"Student found: {students[roll]}"
-    return "No student"
+    return "Student not found"
 
 def update_student(roll,new_name):
     if roll in students:
